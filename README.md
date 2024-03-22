@@ -45,6 +45,7 @@ We take sequence 00 as an example, here is the evaluation result:
 The video demonstration is shown here.
 
 <img src="/figure/eval_stream.gif" width="600">
+
 # HDL Implementation Demo
 Our previous work has been published as an Example in Matlab 2023b. You could try it with HDL Coder and Vision HDL Toolbox. [Example](https://www.mathworks.com/help/visionhdl/ug/lidar-ground-segmentation.html)
 
