@@ -2,6 +2,8 @@
 Evaluation Framework for ground segmentation on SemanticKITTI dataset
 
 # Motivation
+<img src="/figure/metric.png" width="600">
+
 The conventional evaluation metrics for semantic segmentation may not adequately address the distinct complexities associated with ground plane segmentation. These challenges include the non-uniform density of points at varying distances from the sensor, the necessity to circumvent biases introduced by projection methods, and the aspect of preserving geometric consistency throughout the segmentation process. This discrepancy is illustrated in the figure. Assuming a vertically mounted LiDAR sensor scanning an open area, the segmentation algorithm categorizes points into ground (green) and non-ground (red) classifications.
 
 The left image in the figure offers a bird's-eye view of the detected ground plane, showcasing the areas identified as ground. Conversely, the right image displays how these classifications are represented in a range image, with a noticeable predominance of correctly detected ground points over non-ground ones. However, this representation masks a critical flaw: despite the apparent abundance of correctly identified ground points in the range image, the actual proportion of accurately detected ground area, as viewed from the bird's-eye perspective, falls below 50 percent. This discrepancy underscores the limitations of conventional evaluation metrics, which might not adequately reflect the true effectiveness of ground segmentation algorithms, especially in terms of spatial accuracy and distribution consistency. 
