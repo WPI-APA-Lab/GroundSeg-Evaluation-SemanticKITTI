@@ -10,6 +10,10 @@ The left image in the figure offers a bird's-eye view of the detected ground pla
 
 We utilized the SemanticKITTI as an example to evaluate the performance of ground segmentation (Remove). The dataset and directory setup can be referred to [here](http://www.semantic-kitti.org/dataset.html).
 
+# How to run the code
+
+We will release the code after the paper's publication.
+
 # Metrics
 
 ## Range Image
@@ -35,7 +39,8 @@ We take sequence 00 as an example, here is the evaluation result:
 |    RANSAC   | 85.94 |  76.77 |  64.05  |
 | DepthGround | 87.48 |  78.52 |  70.09  |
 |     Ours    | 86.67 |  77.29 |  70.55  |
-The video demonstration show here.
+
+The video demonstration is shown here.
 
 
 # HDL Implementation Demo
