@@ -43,6 +43,7 @@ We take sequence 00 as an example, here is the evaluation result:
 |     Ours    | 86.67 |  77.29 |  70.55  |
 
 The video demonstration is shown here.
+[![video](/figure/stream.png)](https://www.youtube.com/watch?v=0kWSDgzC2ok)
 
 
 # HDL Implementation Demo
